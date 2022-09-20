@@ -19,7 +19,7 @@ test {
     enabled = false
 }
 
-ca.register('resttests', Test).configure() {
+CalculatorTest.register('Calculator', Test).configure() {
     filter{
         includeTestMatching("java*")
     }
