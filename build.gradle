@@ -10,10 +10,10 @@ repositories {
 }
 
 dependencies {
-       // classpath 'com.android.tools.build:gradle:3.4.2'
-       // changed to
-        classpath 'com.android.tools.build:gradle:4.1.1'
-    }
+    testImplementation 'com.android.tools.build:gradle:4.1.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    
+}
 
 test {
     useJUnitPlatform()
