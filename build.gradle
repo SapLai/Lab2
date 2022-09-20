@@ -19,7 +19,7 @@ test {
     enabled = false
 }
 
-task.register('resttests', Test).configure() {
+lab2.register('resttests', Test).configure() {
     filter{
         includeTestMatching("java*")
     }
