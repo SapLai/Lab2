@@ -19,11 +19,6 @@ test {
     enabled = false
 }
 
-task.withType(Test) {
-    useJUnitPlatform()
-    outputs.uoToDateWhen {false}
-}
-
 task.register('resttests', Test).configure() {
     filter{
         includeTestMatching("rest*")
