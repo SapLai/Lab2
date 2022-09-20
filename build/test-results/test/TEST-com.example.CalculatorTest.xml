@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-14T20:13:51" hostname="WIN-UBP54DQQO0M" time="0.034">
-  <properties/>
-  <testcase name="Should successfully sum two numbers" classname="com.example.CalculatorTest" time="0.033"/>
-  <testcase name="Should successfully subtract first number from the second one" classname="com.example.CalculatorTest" time="0.001"/>
-  <system-out><![CDATA[a
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
