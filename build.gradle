@@ -16,4 +16,11 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    enabled = false
+}
+
+task.register('resttests', Test).configure() {
+    filter{
+        includeTestMatching("java*")
+    }
 }
