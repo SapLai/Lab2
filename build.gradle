@@ -19,7 +19,7 @@ test {
     enabled = false
 }
 
-lab2.register('resttests', Test).configure() {
+ca.register('resttests', Test).configure() {
     filter{
         includeTestMatching("java*")
     }
